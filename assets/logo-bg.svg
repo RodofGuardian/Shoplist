@@ -1,17 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <defs><radialGradient id="bg" cx="50%" cy="50%" r="75%"><stop offset="0" stop-color="#2f6a1c"/><stop offset="1" stop-color="#16280f"/></radialGradient></defs>
-  <rect width="512" height="512" fill="url(#bg)"/>
-  <g transform="translate(256 256) scale(0.56) translate(-256 -256)">
   <defs>
-    <linearGradient id="fill" x1="0.2" y1="0" x2="0.8" y2="1">
-      <stop offset="0" stop-color="#78e64a"/>
-      <stop offset="0.6" stop-color="#52c722"/>
-      <stop offset="1" stop-color="#3d8f26"/>
+    <linearGradient id="fill" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#57d62e"/>
+      <stop offset="1" stop-color="#2f9e24"/>
     </linearGradient>
+  <radialGradient id="bg" cx="50%" cy="50%" r="70%"><stop offset="0" stop-color="#1f5a12"/><stop offset="0.6" stop-color="#0d2409"/><stop offset="1" stop-color="#040a03"/></radialGradient>
   </defs>
-  <polygon points="256.0,12.0 467.3,134.0 467.3,378.0 256.0,500.0 44.7,378.0 44.7,134.0" fill="#4fe01e" stroke-linejoin="round"/>
-  <polygon points="256.0,28.0 453.5,142.0 453.5,370.0 256.0,484.0 58.5,370.0 58.5,142.0" fill="#050805"/>
-  <polygon points="256.0,52.0 432.7,154.0 432.7,358.0 256.0,460.0 79.3,358.0 79.3,154.0" fill="url(#fill)"/>
-  <text transform="translate(256 318) skewX(-14)" text-anchor="middle" font-family="'DejaVu Sans','Arial Black',Arial,sans-serif" font-weight="900" font-style="italic" font-size="172" letter-spacing="-6" fill="#0a0d08" stroke="#0a0d08" stroke-width="8" stroke-linejoin="round">SV</text>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <path d="M60,33 Q60,45 72,45 Q60,45 60,57 Q60,45 48,45 Q60,45 60,33Z" fill="#cfd8d0" opacity="0.55"/>
+  <path d="M425,55 Q425,60 430,60 Q425,60 425,65 Q425,60 420,60 Q425,60 425,55Z" fill="#cfd8d0" opacity="0.55"/>
+  <path d="M468,144 Q468,150 474,150 Q468,150 468,156 Q468,150 462,150 Q468,150 468,144Z" fill="#cfd8d0" opacity="0.55"/>
+  <path d="M40,374 Q40,380 46,380 Q40,380 40,386 Q40,380 34,380 Q40,380 40,374Z" fill="#cfd8d0" opacity="0.55"/>
+  <path d="M430,361 Q430,370 439,370 Q430,370 430,379 Q430,370 421,370 Q430,370 430,361Z" fill="#cfd8d0" opacity="0.55"/>
+  <path d="M465,450 Q465,455 470,455 Q465,455 465,460 Q465,455 460,455 Q465,455 465,450Z" fill="#cfd8d0" opacity="0.55"/>
+  <path d="M150,460 Q150,470 160,470 Q150,470 150,480 Q150,470 140,470 Q150,470 150,460Z" fill="#cfd8d0" opacity="0.55"/>
+  <path d="M300,34 Q300,38 304,38 Q300,38 300,42 Q300,38 296,38 Q300,38 300,34Z" fill="#cfd8d0" opacity="0.55"/>
+  <path d="M90,146 Q90,150 94,150 Q90,150 90,154 Q90,150 86,150 Q90,150 90,146Z" fill="#cfd8d0" opacity="0.55"/>
+  <path d="M470,296 Q470,300 474,300 Q470,300 470,304 Q470,300 466,300 Q470,300 470,296Z" fill="#cfd8d0" opacity="0.55"/>
+  <g transform="translate(256 256) scale(0.62) translate(-256 -256)">
+  <polygon points="256.0,12.0 467.3,134.0 467.3,378.0 256.0,500.0 44.7,378.0 44.7,134.0" fill="#3fe03a" stroke="#3fe03a" stroke-width="6" stroke-linejoin="round"/>
+  <polygon points="256.0,32.0 450.0,144.0 450.0,368.0 256.0,480.0 62.0,368.0 62.0,144.0" fill="#050805"/>
+  <polygon points="256.0,58.0 427.5,157.0 427.5,355.0 256.0,454.0 84.5,355.0 84.5,157.0" fill="url(#fill)"/>
+  <text transform="translate(246 318) skewX(-12)" text-anchor="middle" font-family="'DejaVu Sans','Arial Black',Arial,sans-serif" font-weight="900" font-style="italic" font-size="162" letter-spacing="-8" fill="#060906" stroke="#060906" stroke-width="7" stroke-linejoin="round">SV</text>
   </g>
 </svg>

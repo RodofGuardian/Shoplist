@@ -1,15 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
   <defs>
-    <radialGradient id="bg" cx="50%" cy="50%" r="75%">
-      <stop offset="0" stop-color="#0f5a1c"/>
-      <stop offset="1" stop-color="#031a07"/>
-    </radialGradient>
-    <linearGradient id="hex" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#1f7a2a"/>
-      <stop offset="1" stop-color="#0d3f16"/>
+    <linearGradient id="fill" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0" stop-color="#78e64a"/>
+      <stop offset="0.6" stop-color="#52c722"/>
+      <stop offset="1" stop-color="#3d8f26"/>
     </linearGradient>
   </defs>
-  <rect width="512" height="512" fill="url(#bg)"/>
-  <polygon points="256,56 429,156 429,356 256,456 83,356 83,156" fill="url(#hex)" stroke="#3fe04a" stroke-width="18" stroke-linejoin="round"/>
-  <text x="256" y="312" text-anchor="middle" font-family="Arial Black, Arial, Helvetica, sans-serif" font-weight="900" font-size="170" fill="#eafff0" letter-spacing="2">SV</text>
+  <polygon points="256.0,12.0 467.3,134.0 467.3,378.0 256.0,500.0 44.7,378.0 44.7,134.0" fill="#4fe01e" stroke-linejoin="round"/>
+  <polygon points="256.0,28.0 453.5,142.0 453.5,370.0 256.0,484.0 58.5,370.0 58.5,142.0" fill="#050805"/>
+  <polygon points="256.0,52.0 432.7,154.0 432.7,358.0 256.0,460.0 79.3,358.0 79.3,154.0" fill="url(#fill)"/>
+  <text transform="translate(256 318) skewX(-14)" text-anchor="middle" font-family="'DejaVu Sans','Arial Black',Arial,sans-serif" font-weight="900" font-style="italic" font-size="172" letter-spacing="-6" fill="#0a0d08" stroke="#0a0d08" stroke-width="8" stroke-linejoin="round">SV</text>
 </svg>
